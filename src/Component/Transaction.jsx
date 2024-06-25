@@ -82,7 +82,7 @@ const handelNegetive = (negetivePrice , id) => {
             <div className="col-span-2 sm:col-span-1">
               <label  className=" mr-[100px] mb-2 block text-sm font-medium text-gray-900 "> dynamicPassword * </label>
               <input type="password"     value={SelectedCard.password}
-                  onChange={(e) => setPasswordT(e.target.value)}
+                
                  maxLength="8" className="block w-full rounded border border-gray-300  p-2.5 bg-gray-50 text-sm text-gray-900 " placeholder='••••••••'/>
             </div>
 
